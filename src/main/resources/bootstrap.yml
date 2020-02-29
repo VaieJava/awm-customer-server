@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: customer-server # 对应config-server获取的配置文件的{application}
+  cloud:
+    config:
+      uri: http://39.107.226.36:9002 # 对应config-server地址，默认值http://localhost:8888
+      profile: dev  # 对应config-server获取的配置文件的{profile}
+      label: master # 对应config-server获取的配置文件的{label}，即Git仓库分支
