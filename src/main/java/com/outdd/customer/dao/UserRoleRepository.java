@@ -1,4 +1,4 @@
-package com.outdd.awmcustomerserver.dao;
+package com.outdd.customer.dao;
 
 
 import com.outdd.awmapicustomer.pojo.RolePermission;

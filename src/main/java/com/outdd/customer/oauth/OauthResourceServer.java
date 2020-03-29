@@ -1,7 +1,6 @@
-package com.outdd.awmcustomerserver.oauth;
+package com.outdd.customer.oauth;
 
 import com.outdd.common.constants.Constants;
-import com.outdd.oauthCommon.exception.AuthExceptionEntryPoint;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -22,7 +21,7 @@ public class OauthResourceServer extends ResourceServerConfigurerAdapter {
 
         resources
                 .resourceId(Constants.DEMO_RESOURCE_ID)//绑定客户端id
-                .authenticationEntryPoint(new AuthExceptionEntryPoint())//无权限操作
+//                .authenticationEntryPoint(new AuthExceptionEntryPoint())//无权限操作
                 .stateless(true);
     }
     //http安全配置

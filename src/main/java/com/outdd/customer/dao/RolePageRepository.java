@@ -1,4 +1,4 @@
-package com.outdd.awmcustomerserver.dao;
+package com.outdd.customer.dao;
 
 
 import com.outdd.awmapicustomer.pojo.Role;
@@ -8,10 +8,5 @@ import org.springframework.data.repository.PagingAndSortingRepository;
  * Created by Nicky on 2017/7/30.
  */
 public interface RolePageRepository extends PagingAndSortingRepository<Role, Integer> {
-
-//    @Query("from Role r where r.roleId=:id")
-//    Role findByRoleId(@Param("id") int id);
-
-
 
 }

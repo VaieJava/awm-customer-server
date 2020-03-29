@@ -1,4 +1,4 @@
-package com.outdd.awmcustomerserver.controller;
+package com.outdd.customer.controller;
 
 import com.outdd.common.base.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
